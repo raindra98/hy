@@ -51,14 +51,14 @@ function run($ig) {
 
         output('Please provide login data of your Instagram Account.');
 
-        $login = ("akunlu");
+        $login = ("syahrindrarw");
         if (empty($login)) {
             do { 
                 $login = getVarFromUser("Login"); 
             } while (empty($login));
         }
 
-        $password = ("pwlu");
+        $password = ("Miakarlit4");
         if (empty($password)) {
             do { 
                 $password = getVarFromUser("Password");
